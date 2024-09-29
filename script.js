@@ -1,14 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
     const phrases = [
         "Hello", "Hola", "Bonjour", "Hallo", "Ciao", "Olá", "Привет",
-        "こんにちは", "안녕하세요", "你好", "Hej", "Merhaba", "Salam",
+        "こんにちは", "안녕하세요", "你好", "Hej", "Merhaba",
         "Shalom", "नमस्ते", "สวัสดี", "xin chào", "გამარჯობა", "Sveiki",
-        "Ahoj", "Hei", "Zdravo", "Прывітанне", "Selam", "Tere",
+        "Ahoj", "Zdravo", "Прывітанне", "Selam", "Tere",
         "Cześć", "Szia", "Γειά σου", "Bună", "नमस्कार", "Sawubona",
         "Kamusta", "Jambo", "Salam", "שלום", "Marhaba", "สวัสดี",
-        "안녕하세요", "今日は", "您好", "God dag", "Hei", "Hallo",
-        "Bok", "Labdien", "Labas", "Zdravstiky", "Aloha", "Sveiki",
-        "Hallo", "Hei"
+        "안녕하세요", "今日は", "您好", "God dag", "Hei",
+        "Bok", "Labdien", "Labas", "Zdravstiky", "Aloha"
     ];
 
     const typewriter = document.getElementById('typewriter');

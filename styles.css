@@ -2,49 +2,7 @@ body {
     background-color: #2e3440;
     margin: 0;
     font-family: 'JetBrains Mono', monospace;
-}
-
-.navbar-wrapper {
-    text-align: center;
-    padding-top: 20px;
-    width: 100%;
-}
-
-.navbar-container {
-    display: inline-block;
-    background-color: rgba(216, 222, 233, 0.096);
-    padding: 1em;
-    border-radius: 10px;
-}
-
-.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-li {
-    display: inline;
-    margin-right: 20px;
-}
-
-li:last-child {
-    margin-right: 0;
-}
-
-.navbar-link {
-    color: #eceff4;
-    text-decoration: none;
-}
-
-.navbar-link.active {
-    border-bottom: 2px solid #88c0d0;
-}
-
-.navbar-link:hover {
-    color: #ccc;
-    border-bottom: 2px solid #8fbcbb70;
+    transition: background-color 1s ease;
 }
 
 .heading {
@@ -59,20 +17,83 @@ li:last-child {
     font-size: 20px;
 }
 
+.navbar-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 2em;
+}
+
+.navbar-container {
+    padding: 1em;
+    background-color: #434c5e;
+    border-radius: 8px;
+    display: inline-block;
+    transition: background-color 1s ease;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar-link {
+    color: #eceff4;
+    text-decoration: none;
+    transition: color 1s ease;
+}
+
+.navbar-link.active {
+    border-bottom: 2px solid #88c0d0;
+}
+
+.navbar-link:hover {
+    color: #ccc;
+    border-bottom: 2px solid #8fbcbb70;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+.theme-toggle-icon {
+    color: #eceff4;
+    padding: 1em;
+    border-radius: 8px;
+    background-color: #434c5e;
+    position: absolute;
+    right: 0;
+    top: 2em;
+    margin-right: 2em;
+    cursor: pointer;
+    transition: background-color 1s ease, color 1s ease;
+}
+
+.theme-toggle-icon:hover {
+    color: #ccc;
+}
 
 .typewriter-container {
     text-align: center;
-    width: 100%; /* Ensures the container is full width */
-    padding-top: 1em; /* Adjust spacing as needed */
+    width: 100%;
+    padding-top: 1em;
     height: 2em;
 }
 
 .typewriter {
     color: #eceff4;
     font-size: 28px;
-    display: inline-block; /* Key to keeping it centered */
-    min-width: 50px; /* Ensure it has an initial size */
-    max-width: 100%; /* Allows dynamic width during typing */
+    display: inline-block;
+    min-width: 50px;
+    max-width: 100%;
     overflow: hidden;
     white-space: nowrap;
     border-right: 2px solid;
@@ -80,8 +101,8 @@ li:last-child {
 }
 
 @keyframes typing {
-    from { max-width: 0; } /* Animating max-width instead */
-    to { max-width: 100%; } /* Complete the animation with full visibility */
+    from { max-width: 0; }
+    to { max-width: 100%; }
 }
 
 @keyframes blink-caret {

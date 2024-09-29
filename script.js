@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "Ahoj", "Hei", "Zdravo", "Прывітанне", "Selam", "Tere",
         "Cześć", "Szia", "Γειά σου", "Bună", "नमस्कार", "Sawubona",
         "Kamusta", "Jambo", "Salam", "שלום", "Marhaba", "สวัสดี",
-        "안녕하세요", "今日は", "你好", "God dag", "Hei", "Hallo",
+        "안녕하세요", "今日は", "您好", "God dag", "Hei", "Hallo",
         "Bok", "Labdien", "Labas", "Zdravstiky", "Aloha", "Sveiki",
         "Hallo", "Hei"
     ];

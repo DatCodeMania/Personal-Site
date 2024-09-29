@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "Cześć", "Szia", "Γειά σου", "Bună", "नमस्कार", "Sawubona",
         "Kamusta", "Jambo", "Salam", "שלום", "Marhaba", "สวัสดี",
         "안녕하세요", "今日は", "您好", "God dag", "Hei",
-        "Bok", "Labdien", "Labas", "Zdravstiky", "Aloha"
+        "Bok", "Labdien", "Labas", "Zdravstiky", "Aloha", "Shwmae"
     ];
 
     const typewriter = document.getElementById('typewriter');
